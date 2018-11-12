@@ -1,0 +1,65 @@
+body{
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+html{
+  height: 100%;
+  overflow: hidden;
+}
+
+div
+{
+  text-align: left;
+  color: white;
+  font-size: 1.1em;
+}
+li
+{
+  margin-top: 0.2em;
+  list-style-type: none;
+}
+li:hover
+{
+  background-color: orange;
+}
+li:hover a
+{
+  color: black;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+#container{
+  display: grid;
+  grid-template-columns: 200px auto;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.logo
+{
+  font-family: inherit;
+  font-size: 2em;
+}
+
+#myMenu{
+  color: white;
+  background-color: black;
+  grid-column: : 1/2;
+}
+
+#myIframe{
+  background-color: black;
+  grid-column:2/3;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
